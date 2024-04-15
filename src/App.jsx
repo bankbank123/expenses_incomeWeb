@@ -9,6 +9,7 @@ function App() {
       <Router>
 
         <div>
+          <a href="/login">Click</a>
           <Routes>
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
