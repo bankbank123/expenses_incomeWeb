@@ -9,7 +9,6 @@ function App() {
       <Router>
 
         <div>
-          Hello
           <Routes>
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<Signup />} />
