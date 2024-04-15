@@ -1,0 +1,95 @@
+.form-signup-container {
+    padding: 10px;
+    height: max-content;
+}
+
+.signup-input-container {
+    margin: 5px 0;
+    max-width: 300px;
+    width: 100%;
+}
+
+.signup-text {
+    font-size: 24px;
+    font-weight: 600;
+    margin: 5px 0;
+}
+
+.signup-input {
+    font-size: 20px;
+    border-radius: 5px;
+    border: .25px solid black;
+    padding: 2.5px;
+}
+
+.btn-signup {
+    margin: 10px 0;
+}
+
+.alert-container {
+    background-color: white;
+    max-width: 550px;
+    width: 95%;
+    height: 350px;
+    position: absolute;
+    display: none;
+    align-items: flex-start;
+    flex-direction: column;
+    -webkit-box-shadow: 3px 3px 10px 3px #b3b3b3;
+    -moz-box-shadow: 3px 3px 10px 3px #b3b3b3;
+    box-shadow: 3px 3px 10px 3px #b3b3b3;
+}
+
+.alert-close-icon {
+    position: absolute;
+    left: 2%;
+    top: 2%;
+    width: 42px;
+    height: 42px;
+    cursor: pointer;
+}
+
+.error-icon-container {
+    margin: 40px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.error-icon {
+    width: 100px;
+    height: 100px;
+    color: red;
+    display: none;
+}
+
+.success-icon {
+    color: green;
+}
+
+.error-text {
+    margin: 40px 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.signup-password-container, .signup-passwordConfirmed-container {
+    position: relative;
+}
+
+.signup-eye {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 64%;
+    right: 3%;
+    cursor: pointer;
+}
+
+.signup-open-eye {
+    display: none;
+}
